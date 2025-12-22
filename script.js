@@ -185,3 +185,94 @@
 // for (let i = 2; i <= 20; i = i + 2) {
 //     console.log(i)
 // }
+
+// Calculate the sum of numbers from 1 to 10.
+
+// let sum = 0;
+// for (let i = 1; i <= 10; i++) {
+//     sum = sum + i
+// }
+// console.log(sum)
+
+// Ask the user for a number N and display numbers from 1 to N.
+
+// let N = Number(prompt("Choose any number"))
+// for (let i = 1; i <= N; i++) {
+//     console.log(i)
+// }
+
+// Ask the user for a number and display the sum from 1 to that number.
+
+// let num = Number(prompt("Choose any number"))
+// let sum = 0
+// for (let i = 1; i <= num; i++) {
+//     sum = sum + i;
+// }
+// console.log(sum)
+
+// Display all odd numbers from 1 to 50.
+
+// for (let i = 1; i <= 50; i = i + 2) {
+//     console.log(i)
+// }
+
+// Ask the user for a number and display its reciprocal (1/number).
+
+// let num = Number(prompt("Give me a number"))
+// let rec = 1 / num;
+// console.log(rec);
+
+// Ask the user for a number and display its absolute value.
+
+// const num = Number(prompt("Give me a number"));
+// if (num < 0) {
+//     console.log(Math.abs(num));
+// } else {
+//     console.log(num);
+// }
+
+// Ask the user for two numbers and display which one is greater or if they are equal.
+
+// const num = Number(prompt("Give me a number"));
+// const num2 = Number(prompt("Give me another one"));
+
+// if (num > num2) {
+//     console.log(num)
+// } else if (num < num2) {
+//     console.log(num2)
+// } else {
+//     console.log(`${num} and ${num2} are equal.`)
+// }
+
+// Ask the user for a number and display whether it is positive, negative, or zero.
+
+// let num = Number(prompt("Give me any number"))
+// if (num > 0) {
+//     console.log(`${num} is positive number.`)
+// } else if (num < 0){
+//     console.log(`${num} is negative number.`)
+// } else {
+//     console.log(`${num} is equal to 0.`)
+// }
+
+// Ask the user for three numbers and display the greatest one.
+
+// let num = Number(prompt("Give a number."))
+// let num2 = Number(prompt("Give me another one."))
+// let num3 = Number(prompt("And another one"))
+// if (num > num2 &&  num > num3) {
+//     console.log(num)
+// } else if (num2 > num && num2 > num3) {
+//     console.log(num2)
+// } else {
+//     console.log(num3)
+// }
+
+// Ask the user for a number and check whether it is two-digit.
+
+// const num = Number(prompt("Give me a number"));
+// if (num >= 10 && num <= 99 || num <= -10 && num >= -99) {
+//     console.log(`${num} has 2 digits`)
+// } else {
+//     console.log(`${num} has 1 digit`)
+// }
