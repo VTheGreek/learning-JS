@@ -276,3 +276,94 @@
 // } else {
 //     console.log(`${num} has 1 digit`)
 // }
+
+// Ask the user for a number and display whether it is a multiple of 3.
+
+// const num = Number(prompt("Give me a number."));
+// if (num % 3 === 0) {
+//     alert(`${num} is multiple of 3!`)
+// } else {
+//     alert(`${num} is not a multiple of 3.`)
+// }
+
+// Ask the user for a number and display whether it is a multiple of both 3 and 5.
+
+// const num = Number(prompt("Give me a number."))
+// if (num % 5 === 0 && num % 3 === 0) {
+//     alert(`${num} is multiple with 5 and 3`)
+// } else if (num % 5 === 0 && num % 3 != 0) {
+//     alert(`${num} is multiple of 5 but not 3.`)
+// } else if (num % 3 === 0 && num % 5 != 0) {
+//     alert(`${num} is multiple of 3 but not 5.`)
+// } else {
+//     alert(`${num} is neither equal to 3 or 5`)
+// }
+
+// Ask the user for a number and display whether it is between 1 and 100.
+
+// const num = Number(prompt("Give me a number"))
+// if (num >= 1 && num <= 100) {
+//     alert(`${num} is between 1 and 100`)
+// } else {
+//     alert(`${num} is not between 1 and 100`)
+// }
+
+
+// Ask the user for a number and display whether it is between 1–100 or 200–300.
+
+// const num = Number(prompt("Give me a number"))
+// if (num >= 1 && num <= 100) {
+//     alert(`${num} is between 1 and 100`)
+// } else if (num >= 200 && num <= 300) {
+//     alert(`${num} is between 200 and 300`)
+// } else {
+//     alert(`${num} is neither between 1 and 100 or 200 and 300`)
+// }
+
+// Ask the user for a number and display whether it is greater than 0 AND less than 50.
+
+// const num = Number(prompt("Give me a number."));
+// if(num > 0 && num < 50) {
+//     alert(`${num} is greater than 0 and less than 50`)
+// }  else {
+//     alert(`${num} is great or less than 0 or 50`)
+// }
+
+// Ask the user for a number and display whether it is even AND greater than 10.
+
+// const num = Number(prompt("Give me a number")) 
+// if (num % 2 === 0 && num > 10) {
+//     alert(`${num} is even number and greater than 10`)
+// } else {
+//     alert(`${num} is not even number or greater than 10`)
+// }
+
+// Ask the user for a number and display whether it is even OR greater than 10.
+
+// const num = Number(prompt("Give me a number")) 
+// if (num % 2 === 0 || num > 10) {
+//     alert(`${num} is even number or greater than 10`)
+// } else {
+//     alert(`${num} is not even number or greater than 10`)
+// }
+
+// Ask the user for a number and display the square of the number.
+
+// const num = Number(prompt("Give me a number"));
+// const num2 = num ** 2;
+// alert(num2);
+
+// Ask the user for a number and display whether it is even or odd.
+
+// const num = Number(prompt("Give me a number.")) 
+// if (num % 2 === 0) {
+//     alert(`${num} is even`)
+// } else {
+//     alert(`${num} is odd`)
+// }
+
+// Display all numbers from 1 to 20.
+
+// for (let i = 1; i <= 20; i++) {
+//     console.log(i);
+// }
