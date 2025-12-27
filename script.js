@@ -490,3 +490,40 @@
 //     sum = sum * i;
 // }
 // console.log(sum);
+
+
+// Ask the user for a number and display how many numbers from 1 up to that number are odd.
+
+// let num = Number(prompt("Give me a number."));
+// let sum = 0;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 2 != 0) {
+//         sum = sum + 1;
+//     }
+// }
+// console.log(sum);
+
+
+// Ask the user for a number and display how many numbers from 1 up to that number are multiples of 5.
+
+// let num = Number(prompt("Give me a number."))
+// let sum = 0
+
+// for (let i = 1; i <= num; i++) {
+//     if (i % 5 === 0) {
+//         sum = sum + 1;
+//     }
+// }
+// console.log(sum)
+
+
+// Ask the user for a number and display the largest even number from 1 up to that number.
+
+let num = Number(prompt("Give me a number."));
+let largestEven;
+for (let i = 1; i <= num; i++) {
+    if (i % 2 === 0) {
+        largestEven = i;
+    }
+}
+console.log(largestEven);
