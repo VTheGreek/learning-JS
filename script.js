@@ -367,3 +367,126 @@
 // for (let i = 1; i <= 20; i++) {
 //     console.log(i);
 // }
+
+// Display all even numbers from 2 to 50.
+
+// for (let i = 0; i <= 50; i++) {
+//     if (i % 2 === 0) {
+//         console.log(i)
+//     }
+// }
+
+// Display all numbers from 50 down to 1.
+
+// for (let i = 50; i >= 1; i--) {
+//     console.log(i);
+// }
+
+
+// Display all numbers from 1 to 100 that are multiples of 5.
+
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 5 === 0) {
+//         console.log(i);
+//     }
+// }
+
+
+// Display the sum of all numbers from 1 to 100.
+
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//     sum = sum + i;
+// }
+// console.log(sum);
+
+
+// Display the sum of all even numbers from 1 to 100.
+
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 === 0) {
+//         sum = sum + i;
+//     }
+// }
+// console.log(sum);
+
+
+// Count how many numbers from 1 to 100 are multiples of 3.
+
+// let counter = 0;
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 3 === 0) {
+//         counter = counter + 1;
+//     }
+// }
+// console.log(counter)
+
+// Display the first 10 numbers of the multiplication table of 7.
+
+// for (let i = 1; i <= 10; i++) {
+    // let sum = 7 * i;
+    // console.log(sum);
+// }
+
+
+// Display the sum of the first 10 numbers of the multiplication table of 7.
+
+// let sum = 0;
+// for (let i = 1; i <= 10; i++) {
+//     let counter = 7 * i;
+//     sum = sum + counter;
+// }
+// console.log(sum);
+
+
+// Display all numbers from 1 to 20, but if the number is even, display “even” instead of the number.
+
+
+// for (let i = 1; i <= 20; i++) {
+//     if (i % 2 === 0) {
+//         console.log("Even")
+//     } else {
+//         console.log(i)
+//     }
+// }
+
+
+// Ask the user for a number and display all numbers from 1 up to that number.
+
+// const num = Number(prompt("Give me any number"));
+// for (let i = 0; i <= num; i++){
+//     console.log(i);
+// }
+
+
+// Ask the user for a number and display the sum of all numbers from 1 up to that number.
+
+// let num = Number(prompt("Give me any number"));
+// let sum = 0;
+// for (let i = 1; i <= num; i++) {
+//     sum = sum + i;
+// }
+// console.log(sum);
+
+
+// Ask the user for a number and display the sum of only the even numbers from 1 up to that number.
+
+// const num = Number(prompt("Give me a number."));
+// let sum = 0;
+// for (let i = 1; i <= num; i++) {
+//     if(i % 2 === 0) {
+//         sum = sum + i;
+//     }
+// }
+// console.log(sum);
+
+
+// Ask the user for a number and display the product of all numbers from 1 up to that number.
+
+// let num = Number(prompt("Give me a number"))
+// let sum = 1;
+// for(let i = 1; i <= num; i++) {
+//     sum = sum * i;
+// }
+// console.log(sum);
