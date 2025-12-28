@@ -519,11 +519,455 @@
 
 // Ask the user for a number and display the largest even number from 1 up to that number.
 
-let num = Number(prompt("Give me a number."));
-let largestEven;
-for (let i = 1; i <= num; i++) {
-    if (i % 2 === 0) {
-        largestEven = i;
-    }
-}
-console.log(largestEven);
+// let num = Number(prompt("Give me a number."));
+// let largestEven;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 2 === 0) {
+//         largestEven = i;
+//     }
+// }
+// console.log(largestEven);
+
+
+// Ask the user for a number and display the smallest odd number from 1 up to that number.
+
+// let num = Number(prompt("Give me a number."));
+// let smallestOdd;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 2 === 1) {
+//         smallestOdd = i;
+//         break;
+//     }
+// }
+// console.log(smallestOdd);
+
+
+// Ask the user for a number and display whether the number is prime or not.
+
+// let num = Number(prompt("Give me a number"));
+// let prime;
+
+// if (num < 2) {
+//     prime = false;
+// } else {
+//     prime = true; 
+//     for (let i = 2; i <= num - 1; i++) {
+//         if (num % i === 0) {
+//             prime = false; 
+//             break;         
+//         }
+//     }
+// }
+
+// console.log(prime ? `${num} is prime` : `${num} is not prime`);
+
+
+
+// Ask the user for a number and print all numbers from 1 to that number.
+
+// let num = (Number(prompt("Give me a number.")));
+// for (let i = 1; i <= num; i++) {
+//     console.log(i)
+// }
+
+
+// Ask the user for a number and print only the even numbers from 1 up to that number.
+
+// let num = (Number(prompt("Give me a number.")));
+// for (let i = 2; i <= num; i = i + 2) {
+//     console.log(i)
+// }
+
+
+// Ask the user for a number and print only the odd numbers from 1 up to that number.
+
+// let num = (Number(prompt("Give me a number."))); 
+// for (let i = 1; i <= num; i = i + 2) {
+//     console.log(i)
+// }
+
+
+// Ask the user for a number and calculate the sum of all numbers from 1 up to that number.
+
+// let num = (Number(prompt("Give me a number."))); 
+// let sum = 0;
+
+// for (let i = 1; i <= num; i++) {
+//     sum = sum + i;
+// }
+// console.log(sum);
+
+
+// Ask the user for a number and calculate the sum of only the even numbers from 1 up to that number.
+
+// let num = (Number(prompt("Give me a number."))); 
+// let sum = 0;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 2 === 0) {
+//         sum = sum + i;
+//     }
+// }
+// console.log(sum);
+
+
+// Ask the user for a number and calculate the sum of only the odd numbers from 1 up to that number.
+
+// let num = (Number(prompt("Give me a number."))); 
+// let sum = 0;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 2 === 1) {
+//         sum = sum + i;
+//     }
+// }
+// console.log(sum);
+
+
+// Ask the user for a number and calculate the product of all numbers from 1 up to that number (factorial).
+
+// let num = (Number(prompt("Give me a number."))); 
+// let product = 1;
+// for (let i = 1; i <= num; i++) {
+//     product = product * i;
+// }
+// console.log(product)
+
+
+// Ask the user for a number and print all numbers from that number down to 1 in reverse order.
+
+// let num = (Number(prompt("Give me a number."))); 
+// for (let i = num; i >= 1; i--){
+//     console.log(i)
+// }
+
+
+// Ask the user for a number and print only the even numbers from that number down to 1 in reverse order.
+
+// let num = (Number(prompt("Give me a number."))); 
+// for (let i = num; i >= 1; i--) {
+//     if (i % 2 === 0) {
+//         console.log(i);
+//     }
+// }
+
+// Ask the user for a number and print only the odd numbers from that number down to 1 in reverse order.
+
+// let num = (Number(prompt("Give me a number."))); 
+// for (let i = num; i >= 1; i--) {
+//     if (i % 2 === 1) {
+//         console.log(i);
+//     }
+// }
+
+
+// Ask the user for a number and calculate the sum of all numbers from 1 up to that number that are multiples of 3.
+
+// let num = (Number(prompt("Give me a number.")));
+// let sum = 0; 
+// for (let i = 1; i <= num; i++) {
+//     if (i % 3 === 0) {
+//         sum = sum + i;
+//     }
+// }
+// console.log(sum);
+
+
+// Ask the user for a number and calculate how many numbers from 1 up to that number are multiples of 5.
+
+// let num = (Number(prompt("Give me a number.")));
+// let counter = 0;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 5 === 0) {
+//         counter = counter + 1;
+//     }
+// }
+// console.log(counter);
+
+
+// Ask the user for a number and calculate the product of all even numbers from 1 up to that number.
+
+// let num = (Number(prompt("Give me a number.")));
+// let product = 1;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 2 === 0) {
+//         product = product * i;
+//     }
+// }
+// console.log(product);
+
+
+// Ask the user for a number and calculate the product of all odd numbers from 1 up to that number.
+
+// let num = Number(prompt("Give me a number."));
+// let product = 1;
+// for (let i = 1; i <= num; i++){
+//     if (i % 2 === 1) {
+//         product = product * i;
+//     }
+// }
+// console.log(product);
+
+
+// Ask the user for a number and print all multiples of 7 from 1 up to that number.
+
+// let num = Number(prompt("Give me a number.")); 
+// for (let i = 1; i <= num; i++) {
+//     if (i % 7 === 0) {
+//         console.log(i);
+//     }
+// }
+
+
+// Ask the user for a number and calculate the sum of all multiples of 7 from 1 up to that number.
+
+// let num = Number(prompt("Give me a number.")) 
+// let sum = 0;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 7 === 0) {
+//         sum = sum + i;
+//     }
+// }
+// console.log(sum);
+
+
+// Ask the user for a number and calculate how many multiples of 7 exist from 1 up to that number.
+
+// let num = Number(prompt("Give me a number.")) 
+// let counter = 0;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 7 === 0) {
+//         counter = counter + 1;
+//     }
+// }
+// console.log(counter);
+
+
+// Ask the user for a number and print the largest odd number from 1 up to that number.
+
+// let num = Number(prompt("Give me a number."));
+// let largestOdd;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 2 === 1) {
+//         largestOdd = i;
+//     }
+// }
+// console.log(largestOdd);
+
+
+// Ask the user for a number and print the first number from 1 up to that number that is a multiple of both 7 and 5.
+// (If none exists, print nothing.)
+
+// let num = Number(prompt("Give me a number."));
+// let num2;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 7 === 0 && i % 5 === 0) {
+//         num2 = i;
+//         break;
+//     }
+// }
+// console.log(num2)
+
+
+// Ask the user for a number and find the largest number from 1 up to that number that is NOT a multiple of 2 and NOT a multiple of 3.
+
+// let num = Number(prompt("Give me a number."));
+// let largestNum;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 2 != 0 && i % 3 != 0) {
+//         largestNum = i;
+//     }
+// }
+// console.log(largestNum);
+
+
+// Given a number num, find the SMALLEST number from 1 to num that is NOT divisible by 2 and NOT divisible by 3.
+
+// let num = Number(prompt("Give me a number."));
+// let smallestNum; 
+// for(let i = 2; i <= num; i++) {   // I tried to change the value of i with different numbers
+//     if (i % 2 != 0 && i % 3 != 0) {
+//         smallestNum = i;
+//         break;
+//     }
+// }
+// console.log(smallestNum);
+
+
+// Ask the user for a number and print the sum of all numbers from 1 up to that number that are multiples of 3 or 5.
+
+// let num = Number(prompt("Give me a number."));
+// let sum = 0;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 3 === 0 || i % 5 === 0) {
+//         sum = sum + i;
+//     }
+// }
+// console.log(sum);
+
+
+// Ask the user for a number and print the first 10 multiples of that number.
+
+// let num = Number(prompt("Give me a number."));
+// let product;
+// for (let i = 1; i <= 10; i++) {
+//     product = num * i;
+//     console.log(product);
+// }
+
+
+// Ask the user for a number and print all even multiples of that number from 1 up to 100.
+
+// let num = Number(prompt("Give me a number."));
+// for (let i = 1; i <= 100; i++) {
+//     if ((num * i) % 2 === 0) {
+//         console.log(num * i);
+//     }
+// }
+
+
+// Ask the user for a number and print all multiples of that number less than or equal to 100 that are NOT multiples of 3.
+
+// let num = Number(prompt("Give me a number."));
+// for (let i = 1; i <= 100; i++) {
+//     if ((num * i) % 3 != 0) {
+//         console.log(num * i);
+//     }
+// }
+
+
+// Ask the user for a number and print all even multiples of that number from 1 up to 100, but stop once the multiple exceeds 50.
+
+// let num = Number(prompt("Give me a number."));
+// for (let i = 1; i <= 100; i++) {
+//     let multiple = num * i;
+//     if (multiple > 50) break;
+//     if (multiple % 2 === 0) console.log(multiple);
+// }
+
+
+// Ask the user for a number and print the sum of all even numbers from 1 up to that number.
+
+// let num = Number(prompt("Give me a number."));
+// let sum = 0;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 2 === 0) {
+//         sum = sum + i;
+//     }
+// }
+// console.log(sum);
+
+
+// Ask the user for a number and print the sum of all odd numbers from 1 up to that number.
+
+// let num = Number(prompt("Give me a number."));
+// let sum = 0;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 2 === 1) {
+//         sum = sum + i;
+//     }
+// }
+// console.log(sum);
+
+
+// Ask the user for a number and print the product of all even numbers from 1 up to that number.
+
+// let num = Number(prompt("Give me a number."));
+// let product = 1;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 2 === 0) {
+//         product = product * i;
+//     }
+// }
+// console.log(product);
+
+
+// Ask the user for a number and print all even numbers from that number down to 1 in descending order.
+
+// let num = Number(prompt("Give me a number."));
+// for (let i = num; i >= 1; i--) {
+//     if (i % 2 === 0) {
+//         console.log(i);
+//     }
+// }
+
+
+// Ask the user for a number and print the sum of all even numbers from 1 up to that number that are multiples of 3 or 5.
+
+// let num = Number(prompt("Give me a number."));
+// let sum = 0;
+// for (let i = 1; i <= num; i++) {
+//     if (i % 2 === 0 && (i % 5 === 0 || i % 3 === 0)) {
+//         sum = sum + i;
+//     }
+// }
+// console.log(sum);
+
+
+// Ask the user for a number N and print the multiplication table from 1 up to N.
+
+// let N = Number(prompt("Give me a number."));
+// for (let i = 1; i <= N; i++) {
+//     for (let j = 1; j <= N; j++) {
+//         console.log(`${i} * ${j} = ${i * j}`);
+//     }
+// }
+
+
+// Ask the user for a number N and print all pairs of numbers from 1 up to N.
+
+// let N = Number(prompt("Give me a number."));
+// for (let i = 1; i <= N; i++) {
+//     for (let j = 1; j <= N; j++) {
+//         console.log(i, j)
+//     }
+// }
+
+
+// Ask the user for a number N and print all pairs of numbers from 1 up to N whose sum is even.
+
+// let N = Number(prompt("Give me a number."));
+// let sum = 0;
+// for (let i = 1; i <= N; i++) {
+//     for (let j = 1; j <= N; j++) {
+//         if ((i + j) % 2 === 0) {
+//             console.log(`${i}, ${j}`);
+//         }
+//     }
+// }
+
+
+// Ask the user for a number N and print all pairs of numbers from 1 up to N where the first number is greater than the second.
+
+// let N = Number(prompt("Give me a number."));
+// for (let i = 1; i <= N; i++) {
+//     for (let j = 1; j <= N; j++) {
+//         if (i > j) {
+//             console.log(`${i} , ${j}`);
+//         }
+//     }
+// }
+
+
+// Ask the user for a number N and print all pairs of numbers from 1 up to N where the sum of the first and second number is less than or equal to N.
+
+// let N = Number(prompt("Give me a number."));
+// for (let i = 1; i <= N; i++) {
+//     for ( let j = 1; j <= N; j++) {
+//         if (i + j <= N) {
+//             console.log(`${i}, ${j}`);
+//         }
+//     }
+// }
+
+
+// Ask the user for a number N and print all triplets (i, j, k) from 1 up to N where the sum of the three numbers equals N.
+
+// let N = Number(prompt("Give me a number."));
+// for(let i = 1; i <= N; i++) {
+//     for (let j = 1; j <= N; j++) {
+//         for (let k =1; k <= N; k++) {
+//             if (i + j + k === N) {
+//                 console.log(`${i}, ${j}, ${k}`)
+//             }
+//         }
+//     }
+// }
